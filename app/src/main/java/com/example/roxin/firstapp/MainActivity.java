@@ -36,19 +36,19 @@ public class MainActivity extends AppCompatActivity {
         super.onPause();
         Log.d(msg, "The onPause() event");
     }
-
-    /** 当活动不再可见时调用 */
-    @Override
-    protected void onStop() {
-        super.onStop();
-        Log.d(msg, "The onStop() event");
-    }
-
-    /** 当活动将被销毁时调用 */
-    @Override
-    public void onDestroy() {
-        super.onDestroy();
-        Log.d(msg, "The onDestroy() event");
-    }
+//
+//    /** 当活动不再可见时调用 */
+//    @Override
+//    protected void onStop() {
+//        super.onStop();
+//        Log.d(msg, "The onStop() event");
+//    }
+//
+//    /** 当活动将被销毁时调用 */
+//    @Override
+//    public void onDestroy() {
+//        super.onDestroy();
+//        Log.d(msg, "The onDestroy() event");
+//    }
 }
 
